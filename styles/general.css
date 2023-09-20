@@ -2,6 +2,11 @@
     max-width: 840px;
 }
 
+.main_img{
+    width: 150px;
+    height: auto;
+}
+
 .aside{
     margin: 1em;
     border: 1px solid rgba(0,0,0, 0.2); /* 1 */
@@ -9,6 +14,11 @@
     background-color: #eee;
     color: #333;
     text-align: center;
+}
+
+.aside_img{
+    width: 200px;
+    height: auto;
 }
 
 .p{
