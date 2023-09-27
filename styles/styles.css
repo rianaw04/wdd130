@@ -10,20 +10,20 @@ nav-a{
     display: block;
 }
 
-h1{
-    color: #148cd1;
+h1 {
+    color: steelblue;
 }
 
-main{
-    max-width: 840px;
-}
-
-main-img{
+main img {
     width: 150px;
     height: auto;
-    border: 1px steelblue;
+    border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 0;
 }
 
 aside{
@@ -33,20 +33,22 @@ aside{
     padding: 1em;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align:center;
 }
 
-.aside-img{
+aside img {
     width: 200px;
     height: auto;
 }
 
-p{
-    padding: 0;
-}
 
-footer{
+footer {
     margin-top: 1em;
     border-top: 1px solid #0000;
     text-align: center;
 }
+
+
+/*main{
+    max-width: 840px;
+}*/
