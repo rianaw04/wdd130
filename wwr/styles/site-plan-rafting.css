@@ -1,15 +1,58 @@
-primar-color{
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Mooli&display=swap');
 
+:root {
+    --primary-color: #D4A668;
+    --secondary-color: #9D977D;
+    --accent1-color: #3b471d;
+    --accent2-color: #814D29;
+
+    --heading-font: 'Fira Sans', serif;
+    --paragraph-font: 'Fira Sans', serif;
+
+    --nav-bacground-color: #B4A389;
+    --nav-link-color: #814D29;
+    --nav-hover-link-color: #908B6E;
+    --nav-hover-background-color: #706642;
 }
 
-secondary-color{
-
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
 }
 
-accent1-color{
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
-accent2-color{
-    
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-bacground-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visted {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
 }
