@@ -9,7 +9,7 @@
     --heading-font: 'Fira Sans', serif;
     --paragraph-font: 'Fira Sans', serif;
 
-    --nav-bacground-color: #B4A389;
+    --nav-background-color: #B4A389;
     --nav-link-color: #814D29;
     --nav-hover-link-color: #908B6E;
     --nav-hover-background-color: #706642;
@@ -36,7 +36,7 @@ p {
 }
 
 nav {
-    background-color: var(--nav-bacground-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
