@@ -48,7 +48,7 @@ nav a {
     padding: 1rem;
 }
 
-nav a:link, nav a:visted {
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
