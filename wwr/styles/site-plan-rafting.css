@@ -35,24 +35,24 @@ p {
     padding: 25px;
 }
 
-.nav {
+nav {
     background-color: var(--nav-bacground-color);
     font-size: 1.2rem;
     display: flex;
 }
 
-.nav a {
+nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
-.nav a:link, nav a:visted {
+nav a:link, nav a:visted {
     color: var(--nav-link-color);
 }
 
-.nav a:hover {
+nav a:hover {
     color: var(--nav-hover-background-color);
     background-color: var(--nav-hover-background-color);
 }
