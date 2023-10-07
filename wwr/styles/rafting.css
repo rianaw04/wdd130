@@ -7,3 +7,59 @@
     --accent2-color: #814D29;
 }
 
+body {
+    width: 500px;
+}
+
+.options {
+    padding-left: 50px;
+    background-color: #d3d021;
+    font-weight: bolder;
+}
+
+.logo {
+    width: 90px;
+}
+
+.section1 {
+    top: 90px;
+}
+
+hero {
+    position: relative;
+}
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    font-size: 40px;
+}
+
+.purpose {
+    font-size: 20px;
+    color: #113ed3;
+    font-weight: bolder;
+}
+
+.article {
+    position: absolute;
+    left: 530px;
+    width: 700px;
+    background-color: #9D977D;
+    opacity: 0.7;
+}
+
+.article-img {
+    float: right;
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
