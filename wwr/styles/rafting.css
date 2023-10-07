@@ -1,25 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Mooli&display=swap');
 
-
-
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1 {
-    position: absolute;
-}
-
-article {
-    position: absolute;
-}
-
-article img {
-    float: right;
+:root {
+    --primary-color: #D4A668;
+    --secondary-color: #9D977D;
+    --accent1-color: #3b471d;
+    --accent2-color: #814D29;
 }
