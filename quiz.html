@@ -1,45 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
-     <title>HTML and CSS Quiz</title>
+        <meta charset="utf=8">
+        <meta name="viewport" content="width=device-width, inial-scal=1">
+        <title>HTML and CSS Quiz</title>
+        <link rel="stylesheet" href="styles/quiz.css">
     </head>
-
     <body>
-        <h1>HTML and CSS Quiz</h1>
-        <from action="#" method="post" id="quiz-form">
-            <ol>
-                <li>
-                    <lable for="q1" name="question 1">What does HTML stand for?</lable>
-                    <select id="q1" name="question1"></select>
-              </li>
-                <li>
-                    <label for="q2">Which tag is used to create an ordered list in HTML?
-                       <select id="q2" name="question2">
-                        ul
-                        ol
-                        li
-                       </select>
-                    </label>
-                </li>
-                <li>
-                    <label for="q3">What is the tag for creating a table in HTML?</label>
-                    <input type="text" id="q3" name="question3">
-                </li>
-                <li>
-                    <lable for="q4">Which property is used to change the text color in CSS?
-                        <input type="radio" id="q4a" name="question4" value="color">
-                        <label for="q4a">color</label>
-
-                        <input type="radio" id="q4b name=" question4"value="backgrond-color">
-                        <label for="q4b">backgrond-color</label>
-
-                        <input type="radio" id="q4c" name="question4" value="text-color">
-                        <label for="q4c">text-color</label>
-                    </lable>
-                </li>
-            </ol>	
-            <input type="submit" value="submit">
-        </from>	
-	
+        <main>
+            <form>
+                <fieldset>
+                    <label for="q1">1. What allows you to add space on the inside of a button?</label>
+                    <p></p>
+                    <input type="text" id="q1">
+                    <p></p>
+                    <label for="q2">2. How would you define the inline-block element?</label>
+                    <textarea name="q2" rows="1" cols="40"></textarea>
+                    <p></p>
+                    <lable for="q3">3. What does HTML stand for?</lable>
+                    <select id="q3" name="q3">
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Cascading Style Sheets">Cascading Style Sheets</option>
+                        <option value="Hypertext Markup Language">Hypertext Markup Language</option>
+                    </select>
+                    <p></p>
+                    <label for="q4">4. How many position property are there? </label>
+                    <input type="number" name="integerInput" id="integerInput" step="1" />
+                    <p></p>
+                    <button type="submit">Submit</button>
+              </fieldset>
+            </form>
+        </main>
+        <footer></footer>
     </body>
 </html>
