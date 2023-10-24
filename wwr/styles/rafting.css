@@ -8,15 +8,20 @@
 }
 .header {
     display: grid;
-    grid-template-columns: 90px 90px 90px 90px;
-    grid-auto-rows: 90px; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 40px;
+
 }
 
 .headerbuttons {
     display: flex;
     justify-content: space-between;
     font-weight: bolder;
-    
+    padding-left: 50px;
+}
+
+.headerbuttons > * {
+    margin-right: 50px;
 }
 
 .logo {
@@ -27,7 +32,7 @@
     top: 90px;
 }
 
-hero {
+.hero {
     position: relative;
 }
 
@@ -65,6 +70,4 @@ h1 {
     padding-right: 10px;
 }
 
-socials {
-    position: absolute;
-}
+
