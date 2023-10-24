@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.box {
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    border-radius: 10px;
+    background-color: rgb(216, 212, 212);
+}
+
+.heading {
+    font-family: sans-serif;
+    color:  rgb(52, 216, 216);
+}
+
+label {
+     font: 1em sans-serif;
+     font-weight: bold;
+}
+
+.submitbutton {
+    font-weight: bolder;
+    background-color: rgb(52, 216, 216);
+}
