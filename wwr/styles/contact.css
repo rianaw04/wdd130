@@ -74,6 +74,31 @@ hr {
     width: 190px;
 }
 
+.booknow {
+    margin-left: 550px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.pic1 {
+    height: 300px;
+    margin-right: 40px;
+}
+
+.pic2 {
+    height: 250px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.pic3{
+    height: 300px;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,11 +108,11 @@ hr {
 .form {
     border: 2px solid rgb(92, 129, 31);
     margin-right: 30px;
-    height: 400px;
+    height: 450px;
 }
 
 .q1 {
-    margin-top: 0px;
+    margin-top: 10px;
     width: 550px;
     font-size: 20px;
     font-weight: bold;
@@ -96,33 +121,30 @@ hr {
 }
 
 .q2 {
-    margin-top: 0px;
+    margin-top: 10px;
     width: 550px;
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .m1 {
     font-size: 20px;
-    margin-bottom: 10px;
-    
 }
 
 
 .q3 {
+    margin-top: 0px;
     display: grid;
-    grid-template-columns: 1frssss;
-    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .m2 {
-   margin-top: 30px
-   
+  font-size: 20px;
 }
 
 .q4 {
-    margin-top: 0px;
+    margin-top: 20px;
     width: 550px;
     font-size: 20px;
     font-weight: bold;
