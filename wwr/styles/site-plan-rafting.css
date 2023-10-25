@@ -16,8 +16,7 @@
 }
 
 body {
-    width: 500px;
-    height: 500px;
+   
     font-family: var(--paragraph-font);
     padding: 20px;
 }
@@ -31,10 +30,10 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-family: var(--paragraph-font);
-    font-weight: 200;
-    padding: 25px;
-    color: #111103;
     font-weight: bold;
+    padding: 25px;
+    color: var(--primary-color);
+    
 }
 
 nav {

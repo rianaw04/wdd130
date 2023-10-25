@@ -10,14 +10,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 40px;
-
+    
+    
 }
 
 .headerbuttons {
     display: flex;
     justify-content: space-between;
     font-weight: bolder;
-    padding-left: 50px;
+    padding-left: 150px;
+    text-align: center;
 }
 
 .headerbuttons > * {
@@ -32,9 +34,6 @@
     top: 90px;
 }
 
-.hero {
-    position: relative;
-}
 
 
 .hero img {

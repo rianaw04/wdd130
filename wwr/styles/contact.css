@@ -1,7 +1,156 @@
 .name {
-    position: fixed;
+    position: absolute;
     top: 80px;
-    left: 210px;
+    left: 590px;
     font-size: 30px;
+    text-align: center;
 }
 
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1310px;
+    height: 150px;
+    border: 5px solid grey;
+    background-color: rgb(92, 129, 31);
+}
+
+.info1{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr {
+    display: block;
+    color: rgb(92, 129, 31);
+    border-width: 5px;
+   
+}
+
+
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contactus {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    font-weight: bolder;
+   margin-left: 500px;
+    text-align: center;
+    justify-content: center;
+}
+
+.phone {
+    font-size: 20px;
+    width: 400px;
+   background-color:  rgb(92, 129, 31);
+   border: 3px solid grey;
+   margin-top: 25px;
+}
+
+.email {
+    margin-top: 25px;
+    font-size: 20px;
+    width: auto;
+   background-color:  rgb(92, 129, 31);
+   border: 3px solid grey;
+}
+
+.text1 {
+    position: fixed;
+    top: 310px;
+    left: 20px;
+
+    width: 190px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 35px;
+}
+
+.form {
+    border: 2px solid rgb(92, 129, 31);
+    margin-right: 30px;
+    height: 400px;
+}
+
+.q1 {
+    margin-top: 40px;
+    width: 550px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.q2 {
+    margin-top: 40px;
+    width: 550px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.q3 {
+   margin-top: 40px;
+   margin-right: 50px;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.q4 {
+    margin-top: 40px;
+    width: 550px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.q5 {
+    
+    width: 500px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.line2 {
+    margin-top: 40px;
+   border-width: 2px;
+}
+
+.submitbutton {
+    font-size: 20px;
+   margin-left: 250px;
+}
+
+.facebook {
+    height: 25px;
+    margin-left: 450px;
+}
+
+.twitter {
+    height: 25px;
+    margin-left: 570px;
+}
+
+.insta {
+    height: 25px;
+    margin-left: 700px;
+}
+
+.bottom {
+    margin-top: 25px;
+    border: 1px solid grey;
+    width: auto;
+    text-align: center;
+}
