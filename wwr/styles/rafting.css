@@ -26,6 +26,14 @@
     margin-right: 50px;
 }
 
+
+.article-img {
+    float: right;
+    width: 450px;
+}
+
+
+
 .logo {
     width: 90px;
 }
@@ -53,20 +61,7 @@ h1 {
     font-weight: bolder;
 }
 
-.article {
-    position: absolute;
-    left: 530px;
-    width: 700px;
-    background-color: #9D977D;
-    opacity: 0.7;
-}
 
-.article-img {
-    float: right;
-    width: 350px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-}
+
 
 
