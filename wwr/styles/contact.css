@@ -87,44 +87,56 @@ hr {
 }
 
 .q1 {
-    margin-top: 40px;
+    margin-top: 0px;
     width: 550px;
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 10px;
     
 }
 
 .q2 {
-    margin-top: 40px;
+    margin-top: 0px;
     width: 550px;
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
+.m1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+
 .q3 {
-   margin-top: 40px;
-   margin-right: 50px;
-   font-size: 20px;
-   font-weight: bold;
+    display: grid;
+    grid-template-columns: 1frssss;
+    margin-top: 5px;
+}
+
+.m2 {
+   margin-top: 30px
+   
 }
 
 .q4 {
-    margin-top: 40px;
+    margin-top: 0px;
     width: 550px;
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .q5 {
-    
     width: 500px;
     font-size: 14px;
     font-weight: bold;
 }
 
 .line2 {
-    margin-top: 40px;
+    margin-top: 0px;
    border-width: 2px;
 }
 
