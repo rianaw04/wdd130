@@ -1,55 +1,96 @@
+:root {
+    --primary-color: steelblue;
+    --secondary-color: #333;
+    --accent1-color: #fff;
+    --accent2-color: #eee;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, .grid, footer{
+    max-width: 840px;
+    margin: 0 auto;  
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
 
 nav {
-    background-color: steelblue;
-    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+nav a:hover {
+    color: steelblue;
 }
 
 h1 {
-    color: steelblue;
+    color: var(--primary-color);
+    border-bottom: 2px solid var();
+    padding: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--primary-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 10px;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    align-items: start;
 }
 
 main {
-    max-width: 840px;
+    grid-column: 2 / 3;
+    margin: 1rem;
+}
+
+main img {
     float: right;
 }
 
 aside {
-    position: relative;
     width: 20rem;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     border: 1px solid rgba(0,0,0,0.2);
-    background-color: #eee;
-    color: #333;
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
     text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
 }
 
 aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 50px;
+    margin-bottom: 1rem;
 }
 
 aside img {
@@ -57,19 +98,10 @@ aside img {
     height: auto;
 }
 
-main img {
-    width: 150px;
-    height: auto;
-    float: right;
-}
-
-p {
-    padding: 0;
-}
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--secondary-color);
     text-align: center;
 }
 
