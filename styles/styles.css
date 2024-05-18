@@ -78,6 +78,7 @@ main img {
 }
 
 aside {
+    position: relative;
     width: 20rem;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
