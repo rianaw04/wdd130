@@ -14,8 +14,78 @@
 
     --nav-background-color: #968567;
     --nav-link-color: #2A2F1E;
-    --nav-hover-link-color: ;
-    --nav-hover-background-color: ;
+    --nav-hover-link-color: blue;
+    --nav-hover-background-color: rgb(113, 113, 241) ;
+}
+
+body {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--nav-link-color);
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: var(--nav-hover-link-color);
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary-color);
+    font-size: 2rem;
+    z-index: 1;
+    font-family: var(--heading-font);
+}
+
+article {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background-color: rgba(187, 165, 143, 0.8);
+    color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 1;
+}
+
+article img {
+    float: right;
+    margin-left: 20px;
+    max-width: 50%;
 }
 
 h1, h2 {
@@ -27,4 +97,14 @@ h1, h2 {
 p {
     color: var(--secondary-color);
     font-family: var(--paragraph-font);
+}
+
+.sociallinks a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+.sociallinks:hover {
+    color: var(--accent1-color);
 }
