@@ -17,7 +17,7 @@ body {
     padding: 0;
 }
 
-header, .grid, footer{
+header, footer, .grid{
     max-width: 840px;
     margin: 0 auto;  
 }
@@ -65,7 +65,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 1rem;
-    align-items: start;
+    align-items: center;
 }
 
 main {
