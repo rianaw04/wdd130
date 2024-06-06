@@ -93,6 +93,115 @@ header nav a:hover {
     margin-bottom: 45px;
 }
 
+.bookings {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1000px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 35px;
+}
+
+.form {
+    border: 2px solid rgb(92, 129, 31);
+    margin-right: 30px;
+    height: 450px;
+}
+
+.q1 {
+    margin-top: 10px;
+    width: 550px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.q2 {
+    margin-top: 10px;
+    width: 550px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.m1 {
+    font-size: 20px;
+}
+
+
+.q3 {
+    margin-top: 0px;
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.m2 {
+  font-size: 20px;
+}
+
+.q4 {
+    margin-top: 20px;
+    width: 550px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.q5 {
+    width: 500px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.line2 {
+    margin-top: 0px;
+   border-width: 2px;
+}
+
+.submitbutton {
+    font-size: 20px;
+   margin-left: 250px;
+}
+
+.map {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
+
+.map iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    box-sizing: border-box;
+}
+
 
 
 h1, h2 {
